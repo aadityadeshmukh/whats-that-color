@@ -1,6 +1,11 @@
 let decoyColorSelector = document.getElementById('colorSelText');
 let colorSelection = document.getElementById('colorSel');
 let colorNameElem = document.getElementById('colorName');
+let defcol = colorSelection.value;
+decoyColorSelector.style.color = defcol;
+let n_defaultmatch = ntc.name(defcol);
+n_defaultname = n_defaultmatch[1];
+colorNameElem.textContent = n_defaultname;
 decoyColorSelector.onclick = function() {
   colorSelection.click();
 };
