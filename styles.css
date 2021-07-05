@@ -6,7 +6,7 @@ body {
   display: grid;
   justify-items: left;
   align-content: center;
-  padding-left: 50px;
+  padding-left: 200px;
 }
 #colorSel {
   display: none;

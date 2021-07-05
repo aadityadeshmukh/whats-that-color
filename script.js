@@ -1,5 +1,7 @@
 let decoyColorSelector = document.getElementById('colorSelText');
 let colorSelection = document.getElementById('colorSel');
+//set a default color
+colorSelection.value = '#5e5555';
 let colorNameElem = document.getElementById('colorName');
 let defcol = colorSelection.value;
 decoyColorSelector.style.color = defcol;
