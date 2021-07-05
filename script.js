@@ -1,5 +1,6 @@
 let decoyColorSelector = document.getElementById('colorSelText');
 let colorSelection = document.getElementById('colorSel');
+let colorNameElem = document.getElementById('colorName');
 decoyColorSelector.onclick = function() {
   colorSelection.click();
 };
@@ -18,6 +19,5 @@ function changeColor() {
   console.log(n_name);
 
   //set the color name to paragraph elem
-  let colorNameElem = document.getElementById('colorName');
   colorNameElem.textContent = n_name;
 }
