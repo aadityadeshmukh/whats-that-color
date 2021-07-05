@@ -8,6 +8,7 @@ decoyColorSelector.style.color = defcol;
 let n_defaultmatch = ntc.name(defcol);
 n_defaultname = n_defaultmatch[1];
 colorNameElem.textContent = n_defaultname;
+colorNameElem.style.color = defcol;
 decoyColorSelector.onclick = function() {
   colorSelection.click();
 };
@@ -27,4 +28,5 @@ function changeColor() {
 
   //set the color name to paragraph elem
   colorNameElem.textContent = n_name;
+  colorNameElem.style.color = col;
 }

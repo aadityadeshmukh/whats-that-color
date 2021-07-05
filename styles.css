@@ -13,3 +13,9 @@ body {
 #colorSel {
   display: none;
 }
+#colorSelText,
+#colorName {
+  font-style: italic;
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
