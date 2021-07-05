@@ -3,6 +3,10 @@ body {
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 60px;
+  display: grid;
+  justify-items: left;
+  align-content: center;
+  padding-left: 50px;
 }
 #colorSel {
   display: none;
